@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>我的简单博客</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        h1 {
+            color: #333;
+            text-align: center;
+            border-bottom: 2px solid #eee;
+            padding-bottom: 10px;
+        }
+        nav {
+            text-align: center;
+            margin: 20px 0;
+        }
+        nav a {
+            margin: 0 15px;
+            text-decoration: none;
+            color: #333;
+        }
+        nav a:hover {
+            color: #007bff;
+        }
+        .blog-content {
+            margin-top: 30px;
+        }
+        .blog-post {
+            margin-bottom: 40px;
+        }
+        .blog-post h2 {
+            color: #333;
+            border-bottom: 1px solid #eee;
+            padding-bottom: 5px;
+        }
+        .blog-post p {
+            color: #666;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>我的简单博客</h1>
+        <nav>
+            <a href="#home">首页</a>
+            <a href="#articles">文章</a>
+            <a href="#about">关于</a>
+            <a href="#contact">联系</a>
+        </nav>
+    </header>
+
+    <div class="blog-content">
+        <section id="home" class="blog-post">
+            <h2>欢迎来到我的博客</h2>
+            <p>这是一个简单的静态博客网站，这里我会分享一些我的想法和经验。</p>
+            <p>点击上方导航链接可以查看不同内容。</p>
+			<p>目前还在持续开发中</p>
+        </section>
+
+        <section id="articles" class="blog-post">
+            <h2>最新文章</h2>
+            <p>目前还没有发布内容，敬请期待。</p>
+        </section>
+
+        <section id="about" class="blog-post">
+            <h2>关于我</h2>
+            <p>我是一个热爱技术的人，喜欢探索新的知识和技能。</p>
+        </section>
+
+        <section id="contact" class="blog-post">
+            <h2>联系我</h2>
+            <p>如果你有任何问题或建议，可以通过以下方式联系我：</p>
+            <p>邮箱：ssddysd@163.com</p>
+        </section>
+    </div>
+</body>
+</html>
